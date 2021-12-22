@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+.footer {
+	padding: 20px;
+	background: #ddd;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px 100px;
+}
+.footer .about {
+	width: 70%;
+}
+.social-icon {
+	display: flex;
+	margin-top: 20px;
+}
+.social-icon li {
+	list-style: none;
+}
+.social-icon li a{
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     background: #222;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 10px;
+     text-decoration: none;
+     border-radius: 4px;
+ }
+ 
+ .contact li {
+ 	list-style: none;
+ }
+.contact {
+	margin: 0;
+}

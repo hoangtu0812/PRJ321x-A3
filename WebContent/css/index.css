@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+.index {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto
+	
+}
+.index img {
+	width:100%;
+}
+.index .product {
+	border-style: solid;
+	margin: 10px;
+	padding: 10px;
+	border-width: 2px;
+	border-color: #DCDCDC;
+}
+
+.index .product:hover {
+	border-color: #BEBEBE;
+}
+.index .pageid {
+	text-align:center;
+	border-radius: 60%;
+	border-style: solid;
+	border-color: #ABEDEF;
+	height: 25px;
+	width: 25px;
+	border-width: 2px;
+	display: inline-block;
+}
+.index a {
+	text-decoration: none;
+	color: black;
+}
+.not-found {
+	height: 500px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+.create-success {
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #AEF4B1;
+	
+}

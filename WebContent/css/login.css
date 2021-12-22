@@ -1,0 +1,73 @@
+
+.loginbody {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+.loginbody h1 {
+	text-align:center;
+}
+.login-btn {
+	width: 100%;
+	margin-top: 10px;
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+.loginbody .login-btn:hover{
+	background-color: #72DB5B;
+}
+.loginbody input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.loginbody input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loginbody .login-form {
+	background-color: #ddd;
+	width: 400px;
+	height: 600px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-top: 100px;
+	border-radius: 5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.loginbody #uid-mess {
+	color: red;
+}
+
+.loginbody #pwd-mess {
+	color: red;
+}
+.loginbody .account {
+	text-align: center;
+}
+.loginbody .account a {
+	text-decoration: none;
+	color: black;
+}
+.loginbody .account a:hover {
+	color: #7C7C7C;
+}
